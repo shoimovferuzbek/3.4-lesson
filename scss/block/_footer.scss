@@ -1,0 +1,29 @@
+.footer__container{
+    width: 100%;
+    background-color:#2C343E;
+    height: 120px;
+    padding: 47px 85px;
+    justify-content: space-between;
+    display: flex;
+}
+.footer__left{
+    display: flex;
+    align-items: center;
+    width: 621px;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    width: 283px;
+    justify-content: space-between;
+}
+.footer__item{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color:#83888F;
+}
+.footer__right{
+    display: flex;
+    gap: 10px;
+}

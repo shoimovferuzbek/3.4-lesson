@@ -1,0 +1,102 @@
+.works__container{
+    margin-top: 200px;
+    width: 1045px;
+    margin-left: 180px;
+}
+.works__title{
+    font-family: 'Fraunces';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color:#83888F;
+    margin-bottom: 80px;
+}
+.works__block{
+    width: 760px;
+    background-color: #FDD6BA;
+    position: relative;
+    height: 1px;
+    margin-bottom: 82px;
+}
+.works__block-span{
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    background-color: #FEFCF7;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -15px;
+}
+.works__block-span:nth-child(2){
+    margin-left: 349px;
+}
+.works__block-span:nth-child(3){
+    margin-left: 729px;
+}
+.works__box-list{
+    display: flex;
+    justify-content: space-between;
+}
+.works__box-item{
+    width: 285px;
+}
+.works__box-item::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../../img/01.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 72px;
+    margin-bottom: 38px;
+}
+.works__box-title{
+    width: 255px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color:#333D4B;
+    margin-bottom: 42px;
+    height: 72px;
+}
+.works__box-text{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#333D4B;
+    margin-bottom: 64px;
+}
+.works__box-item:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../../img/02.png);
+    background-repeat: no-repeat;
+    width: 101px;
+    height: 72px;
+    margin-bottom: 38px;
+}
+.works__box-item:nth-child(3)::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../../img/03.png);
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 72px;
+    margin-bottom: 38px;
+}
+.works__box-btn{
+    width: 217px;
+    height: 56px;
+    border: none;
+    border-radius: 6px;
+    background-color:#0E8784;
+    padding: 15px 31px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    margin-bottom: 200px;
+}

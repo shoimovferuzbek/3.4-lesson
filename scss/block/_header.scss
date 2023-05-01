@@ -1,0 +1,19 @@
+.main-header__container{
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header__nav{
+    width: 283px;
+}
+.main-header__list{
+    display: flex;
+    justify-content: space-between;
+}
+.main-header__item{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color:#83888F;
+}
